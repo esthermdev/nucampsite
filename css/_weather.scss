@@ -1,0 +1,25 @@
+#weather {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+
+    #weather-icon {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    #weather-temp,
+    #weather-description {
+        margin-top: 20px;
+        margin-inline: 10px;
+    }
+
+    #weather-description {
+        text-transform: capitalize;
+    }
+}
+
+#weather:hover {
+    opacity: 0.8;
+}

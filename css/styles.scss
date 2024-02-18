@@ -59,9 +59,12 @@ footer {
 @import 'modal';
 @import 'review-section';
 
+
 #carouselButton {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 100;
 }
+
+@import 'weather';
