@@ -49,8 +49,7 @@ function displayWeather(data) {
     weatherIcon.appendChild(image);
 
     /* Not sure if this was intentional. The temperature and description elements were setup as spans which are inline elements. You have nested paragragh elements, which are block elements, inside the spans which isn't technically correct. That is why the values are spread across the screen and not next to the other icons. */
-    temperature.textContent = `${Math.round(data.main.temp)}\u00B0F`; /* End with a semicolon. */
-    weatherTemp.appendChild(temperature);
+    weatherTemp.textContent = `${Math.round(data.main.temp)}\u00B0F`; /* End with a semicolon. */
 
     weatherDescription.textContent = data.weather[0].description;
 
